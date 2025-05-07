@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-from matplotlib.colors import LinearSegmentedColormap
+# from matplotlib.colors import LinearSegmentedColormap
 from keras.models import (
     load_model,
 )
@@ -332,8 +332,8 @@ class ConfigGUI:
             **self.fig_lifetime_stats_bars_config,
         }
 
-        self.fig_lifetime_stats_gradient_cmap = LinearSegmentedColormap.from_list('', self.table_instant_stats_color_gradient)
-        self.fig_lifetime_stats_gradient_cmap_reversed = LinearSegmentedColormap.from_list('', list(reversed(self.table_instant_stats_color_gradient)))
+        # self.fig_lifetime_stats_gradient_cmap = LinearSegmentedColormap.from_list('', self.table_instant_stats_color_gradient)
+        # self.fig_lifetime_stats_gradient_cmap_reversed = LinearSegmentedColormap.from_list('', list(reversed(self.table_instant_stats_color_gradient)))
 
     def set_strings(
             self,

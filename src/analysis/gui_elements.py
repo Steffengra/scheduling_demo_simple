@@ -4,8 +4,8 @@ from pathlib import Path
 from PIL import Image, ImageTk
 
 import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+# import matplotlib.pyplot as plt
+# from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 import src
 from src.utils.get_width_rescale_constant_aspect_ratio import (
