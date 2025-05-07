@@ -60,12 +60,12 @@ class Scenario(tk.Frame):
             text=config_gui.string_arena_attribution,
             **config_gui.label_arena_attribution_config,
         )
-        self.frame_base_station = BaseStationFrame(
-            master=self,
-            base_station_image_path=base_station_image_path,
-            base_station_img_height=self.base_station_img_height,
-            **config_gui.frames_config,
-        )
+        # self.frame_base_station = BaseStationFrame(
+        #     master=self,
+        #     base_station_image_path=base_station_image_path,
+        #     base_station_img_height=self.base_station_img_height,
+        #     **config_gui.frames_config,
+        # )
         self.frames_users = [
             UserFrame(
                 master=self,
@@ -143,14 +143,11 @@ class Scenario(tk.Frame):
         self.label_arena_attribution.place(relx=.41, rely=.97)
 
         self.label_title.place(relx=0.02, rely=0.12)
-        # self.label_tutorial_button.pack()
 
         self.frames_users[0].place(relx=0.42, rely=0.30)
         self.frames_users[1].place(relx=0.66, rely=0.30)
         self.frames_users[2].place(relx=0.42, rely=0.69)
         self.frames_users[3].place(relx=0.66, rely=0.69)
-
-        # self.frame_base_station.place(relx=0.01, rely=0.55)
 
         self.frame_resource_grid.place(relx=0.85, rely=0.1)
         self.frame_resource_grid.pack_propagate(False)

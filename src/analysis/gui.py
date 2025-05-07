@@ -8,9 +8,7 @@ project_root_path = Path(Path(__file__).parent, '..', '..')
 sys_path.append(str(project_root_path.resolve()))
 
 import tkinter as tk
-from tkinter import ttk
 from PIL import ImageTk, Image
-import tkhtmlview as tkhtml
 
 import numpy as np
 
@@ -122,13 +120,6 @@ class App(tk.Tk):
         Set up & position GUI elements from gui_elements.py.
         """
 
-        # load tutorial image for later use
-        self.image_tutorial = Image.open(Path(project_root_path, 'src', 'analysis', 'img', '00_ANTposter_mini.png'))
-        self.tk_image_tutorial = ImageTk.PhotoImage(self.image_tutorial.resize((
-            get_width_rescale_constant_aspect_ratio(self.image_tutorial, int(0.9*self.window_height)),
-            int(0.9*self.window_height),
-        )))
-
         # Load channel strength indicator images for later use
         self.images_channelstrength = [
             Image.open(Path(project_root_path, 'src', 'analysis', 'img', channel_strength_indicator_img))
@@ -142,31 +133,6 @@ class App(tk.Tk):
             for image_channel_strength in self.images_channelstrength
         ]
 
-        # Load button images for later use
-        button_timer_image_height = int(self.config_gui.button_countdown_img_scale * self.window_height)
-        button_countdown_image = Image.open(Path(project_root_path, 'src', 'analysis', 'img', self.config_gui.button_countdown_img))
-        button_countdown_image = button_countdown_image.resize((
-            get_width_rescale_constant_aspect_ratio(button_countdown_image, button_timer_image_height),
-            button_timer_image_height,
-        ))
-        self.tk_image_button_countdown = ImageTk.PhotoImage(button_countdown_image)
-        self.config_gui.button_countdown_config['image'] = self.tk_image_button_countdown
-
-        button_auto_image = Image.open(Path(project_root_path, 'src', 'analysis', 'img', self.config_gui.button_auto_img))
-        button_auto_image = button_auto_image.resize((
-            get_width_rescale_constant_aspect_ratio(button_auto_image, button_timer_image_height),
-            button_timer_image_height,
-        ))
-        self.tk_image_button_auto = ImageTk.PhotoImage(button_auto_image)
-        self.config_gui.button_auto_config['image'] = self.tk_image_button_auto
-
-        button_reset_image = Image.open(Path(project_root_path, 'src', 'analysis', 'img', self.config_gui.button_reset_img))
-        button_reset_image = button_reset_image.resize((
-            get_width_rescale_constant_aspect_ratio(button_reset_image, button_timer_image_height),
-            button_timer_image_height,
-        ))
-        self.tk_image_button_reset = ImageTk.PhotoImage(button_reset_image)
-        self.config_gui.button_reset_config['image'] = self.tk_image_button_reset
 
         # tutorial overlay
         # self.frame_tutorial = tk.Frame(
