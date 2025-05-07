@@ -1,0 +1,26 @@
+
+label_title: Verbindung gesucht
+label_resource_grid: 'Frequenzblöcke'
+label_instant_stats_title: Ergebnisse
+label_lifetime_stats_title: Leistung seit Start
+label_results_title: Vergleich
+
+stats:
+  - Daten
+  - Fairness
+  - Gestorben
+  - Gesamt
+
+label_own_display_name: Sie
+label_learned_display_names:
+  mixed: 'KI '
+
+button_screen_selector_allocations: Allokationen
+button_screen_selector_lifetime_stats: Statistiken
+
+wants: "- Nutzer braucht"
+resources_singular: 'Block'
+resources_plural: 'Blöcke'
+channel: "- Empfang"
+
+arena_attribution: "Bild erstellt mit MidJourney."

@@ -1,0 +1,25 @@
+
+label_title: Play vs. AI!
+label_resource_grid: Resources
+label_instant_stats_title: Scores
+label_lifetime_stats_title: Performance Since Start
+label_results_title: Last Allocations
+
+stats:
+  - Transmit
+  - Fairness
+  - Deaths
+  - Overall
+
+label_own_display_name: YOU
+label_learned_display_names:
+  sumrate: 'AI: Max Transmit'
+  fairness: 'AI: Max Fairness'
+  mixed: 'AI: Max Overall'
+
+button_screen_selector_allocations: Allocations
+button_screen_selector_lifetime_stats: Statistics
+
+wants: Wants
+resources: Resources
+channel: Channel

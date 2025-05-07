@@ -1,0 +1,23 @@
+
+label_title: Spiel gegen KI!
+label_resource_grid: Ressourcen
+label_instant_stats_title: Ergebnisse
+label_lifetime_stats_title: Ergebnisse seit Start
+label_results_title: Letzte Verteilung
+
+stats:
+  - Daten
+  - Fairness
+  - Gestorben
+  - Gesamt
+
+label_own_display_name: DU
+label_learned_display_names:
+  mixed: 'KI'
+
+button_screen_selector_allocations: Verteilungen
+button_screen_selector_lifetime_stats: Statistiken
+
+wants: Will
+resources: ''
+channel: Empfang
