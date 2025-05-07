@@ -4,10 +4,10 @@ Fork of [https://github.com/Steffengra/2301_SchedulingDemo](https://github.com/S
 
 The demo GUI is run from `src/analysis/gui.py`.
 
-![screen1.jpg](reports/screen1.jpg)
-![screen2.jpg](reports/screen2.jpg)
-![screen3.jpg](reports/screen3.jpg)
-![screen4.jpg](reports/screen4.jpg)
+| ![screen1.jpg](reports/screen1.jpg) | ![screen2.jpg](reports/screen2.jpg) |
+| ----------------------------------- |-------------------------------------|
+| ![screen3.jpg](reports/screen3.jpg) | ![screen4.jpg](reports/screen4.jpg) |
+
 
 # Installation
 The ML model used in this demo requires an older version of tensorflow.
