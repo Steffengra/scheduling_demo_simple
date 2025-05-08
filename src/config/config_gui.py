@@ -375,7 +375,7 @@ Typische Verteilungskriterien sind dabei:
 Diese Ziele werden gegeneinander balanciert.
 Verteilen Sie nun die restlichen Frequenzblöcke an die Nutzer."""
 
-        self.label_explanation_textai = "Die Zuteilung muss nicht nur sinnvoll, sondern auch sehr schnell erfolgen. Künstliche Intelligenz (KI) kann dabei helfen. Forschung hilft, dass man sich auf die Entscheidungen der KI verlassen kann.\n\nEine KI, die versucht alle Ziele zu balancieren, hätte etwa so verteilt:"
+        self.label_explanation_textai = "Die Zuteilung muss nicht nur sinnvoll, sondern auch sehr schnell erfolgen. Künstliche Intelligenz (KI) kann dabei unterstützen. Forschung sorgt dafür, dass man sich auf die Entscheidungen der KI verlassen kann.\n\nEine KI, die versucht alle Ziele zu balancieren, hätte etwa so verteilt:"
 #Häufig sind Funkressourcen begrenzt und nicht alle Nutzer können gleichzeitig senden. KI kann helfen, die Ressourcen sinnvoll zu verteilen.
 
 #Typische Verteilungskriterien sind dabei:
